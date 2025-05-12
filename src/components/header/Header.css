@@ -1,0 +1,62 @@
+.header {
+    background-color: #697565bb;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 16px;
+}
+
+
+.navigation {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin-left: 200px;
+}
+
+.button {
+    cursor: pointer;
+    color: black;
+    transition: 0.5s;
+}
+
+.button:hover {
+    color: #3C3D37;
+    text-shadow: 0 8px 5px rgba(128, 141, 123, 0.26);
+    ;
+}
+
+.contact-button {
+    margin-left: 30%;
+}
+
+.💀 {
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.💀:after {
+    content: attr(data-content);
+}
+
+.💀:hover:after {
+    content: attr(data-hover-content);
+}
+
+.💀:active:after {
+    content: attr(data-active-content);
+}

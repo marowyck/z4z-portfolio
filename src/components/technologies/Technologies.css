@@ -1,0 +1,29 @@
+.marqueeContainer {
+    overflow: hidden;
+    white-space: nowrap;
+    background: linear-gradient(90deg,rgb(0, 0, 0) 0%, rgba(68, 92, 70, 1) 35%, rgb(12, 36, 41) 100%);
+    padding: 20px 0;
+    position: relative;
+}
+
+.marqueeTrack {
+    display: inline-flex;
+    animation: marquee 15s linear infinite;
+}
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+    flex-shrink: 0;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

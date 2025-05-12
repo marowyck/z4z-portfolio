@@ -1,0 +1,66 @@
+.about {
+    background-image: url('/images/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    align-items: center;
+    text-align: center;
+    color: #ECDFCC;
+    margin-left: 100px;
+    margin-top: 350px;
+    font-size: 20px;
+}
+
+.formiga {
+    width: 500px;
+    height: 500px;
+    border-radius: 32px;
+    margin-right: 100px;
+    margin-top: 12%;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.6);
+}
+
+.container-text {
+    background-color: #181c14b4;
+    border-radius: 32px;
+    padding: 16px;
+    box-shadow: 0 12px 12px rgba(88, 110, 79, 0.6);
+}
+
+h3 span {
+    color: #93a88c;
+    text-shadow: 2px 5px 5px rgba(64, 218, 72, 0.39);
+}
+
+.box-button {
+    cursor: pointer;
+    border: 4px solid black;
+    background-color: gray;
+    padding-bottom: 10px;
+    transition: 0.1s ease-in-out;
+    user-select: none;
+    max-width: 200px;
+    margin-top: 20px;
+    margin-left: 415px;
+}
+
+.box-button .button {
+    background-color: #dddddd;
+    border: 4px solid #fff;
+    padding: 3px 8px;
+}
+
+.box-button .button span {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+.box-button:active {
+    padding: 0;
+    margin-bottom: 10px;
+    transform: translateY(10px);
+}
